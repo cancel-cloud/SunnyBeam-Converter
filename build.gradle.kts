@@ -1,12 +1,12 @@
 plugins {
     kotlin("jvm") version "2.1.0"
     kotlin("plugin.serialization") version "2.1.0"
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+    id("com.gradleup.shadow") version "9.2.2"
     application
 }
 
 group = "dev.devbrew.solar"
-version = "2.0.0"
+version = "2.0.1"
 
 repositories {
     mavenCentral()
